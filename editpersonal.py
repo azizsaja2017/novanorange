@@ -4,12 +4,12 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-class TestAddEmployee(unittest.TestCase): 
+class TestEditpersonal(unittest.TestCase): 
 
     def setUp(self): 
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
         
-    def test_a_addemployee(self): 
+    def test_a_editpersonal(self): 
         
         browser = self.browser
         browser.get("https://opensource-demo.orangehrmlive.com/index.php/pim/viewMyDetails")
